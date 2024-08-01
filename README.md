@@ -57,7 +57,6 @@ To use the chatbot, follow these steps:
    ```sh
    python chatbot/data_preprocessing.py
 
-
 This script reads the data.csv file, processes the text data (such as tokenization and vectorization), and saves the cleaned data for model training.
 
 2. **Train the Model**:
