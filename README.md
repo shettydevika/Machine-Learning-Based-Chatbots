@@ -62,15 +62,36 @@ To use the chatbot, follow these steps:
 This script reads the data.csv file, processes the text data (such as tokenization and vectorization), and saves the cleaned data for model training.
 
 2. **Train the Model**:
-   
    Train the machine learning model using the preprocessed data. This step involves defining and training the model architecture.
    ```sh
    python chatbot/train_model.py
 
 This script will:
 
--**Load the preprocessed data**: python
--**Define the neural network architecture using TensorFlow and Keras**.
--**Train the model on the dataset**.
--**Save the trained model to a file for later use**.
+- **Load the preprocessed data.**
+Define the neural network architecture using TensorFlow and Keras.
+Train the model on the dataset.
+Save the trained model to a file for later use.
 
+3. **Start the Chatbot**:
+   After training the model, you can start the chatbot interface. 
+
+   ```sh
+   python chatbot/chatbot.py
+
+4. **Interacting with the Chatbot**:
+   Once the appropriate interface is running, you can begin interacting with the chatbot. Use natural language queries to ask questions or make requests, and the chatbot will respond accordingly.
+
+5. **Customization and Extensions**:
+You can customize the chatbot's behavior, improve its accuracy, or add new features by:
+
+Modifying the data.csv file with new queries and responses.
+Updating the data preprocessing steps or model architecture.
+Enhancing the NLP capabilities with additional libraries or techniques.
+
+## Data
+
+The data.csv file contains the training data for the chatbot. The file should be structured with two columns:
+
+query: The user input or question.
+response: The chatbot's response.
