@@ -69,9 +69,9 @@ This script reads the data.csv file, processes the text data (such as tokenizati
 This script will:
 
 - **Load the preprocessed data.**
-Define the neural network architecture using TensorFlow and Keras.
-Train the model on the dataset.
-Save the trained model to a file for later use.
+- **Define the neural network architecture using TensorFlow and Keras.**
+- **Train the model on the dataset.**
+- **Save the trained model to a file for later use.**
 
 3. **Start the Chatbot**:
    After training the model, you can start the chatbot interface. 
@@ -85,13 +85,25 @@ Save the trained model to a file for later use.
 5. **Customization and Extensions**:
 You can customize the chatbot's behavior, improve its accuracy, or add new features by:
 
-Modifying the data.csv file with new queries and responses.
-Updating the data preprocessing steps or model architecture.
-Enhancing the NLP capabilities with additional libraries or techniques.
+- **Modifying the data.csv file with new queries and responses.**
+- **Updating the data preprocessing steps or model architecture.**
+- **Enhancing the NLP capabilities with additional libraries or techniques.**
 
 ## Data
 
 The data.csv file contains the training data for the chatbot. The file should be structured with two columns:
 
-query: The user input or question.
-response: The chatbot's response.
+- **query: The user input or question.**
+- **response: The chatbot's response.**
+
+Example:
+
+      ```sh
+         query,response
+         "What is your name?", "I am a chatbot created to assist you."
+      "   Where are you located?", "We are located at 123 Main Street, Anytown, USA."
+
+
+## Model Training
+
+To train the chatbot's machine learning model, use the provided training scripts. Details on model architecture and training procedures can be found in the training directory.
