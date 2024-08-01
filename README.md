@@ -32,5 +32,44 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/shettydevika/Machine-Learning-Based-Chatbots.git
+   cd Machine-Learning-Based-Chatbots
+
+2. **Create and activate a virtual environment**:
+   ```sh
+   python -m venv venv
+   source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+
+3. **Install the required packages**:
+   ```sh
+   pip install -r requirements.txt
+
+4. **Prepare the data**:
+   
+   Place your data.csv file in the chatbot directory. Ensure it is correctly formatted according to the project specifications.
+
+## Usage
+
+To use the chatbot, follow these steps:
+
+1. **Data Preprocessing**:
+   
+   Start by preprocessing the data to prepare it for model training.
+   ```sh
+   python chatbot/data_preprocessing.py
+
+This script reads the data.csv file, processes the text data (such as tokenization and vectorization), and saves the cleaned data for model training.
+
+2. **Train the Model**:
+   
+   Train the machine learning model using the preprocessed data. This step involves defining and training the model architecture.
+   ```sh
+   python chatbot/train_model.py
+
+This script will:
+
+      Load the preprocessed data.
+      Define the neural network architecture using TensorFlow and Keras.
+      Train the model on the dataset.
+      Save the trained model to a file for later use.
+
