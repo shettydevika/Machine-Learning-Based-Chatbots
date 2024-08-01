@@ -53,10 +53,11 @@ To set up the project locally, follow these steps:
 To use the chatbot, follow these steps:
 
 1. **Data Preprocessing**:
-   
    Start by preprocessing the data to prepare it for model training.
+
    ```sh
    python chatbot/data_preprocessing.py
+
 
 This script reads the data.csv file, processes the text data (such as tokenization and vectorization), and saves the cleaned data for model training.
 
@@ -68,8 +69,7 @@ This script reads the data.csv file, processes the text data (such as tokenizati
 
 This script will:
 
--**Load the preprocessed data**.
-
+-**Load the preprocessed data**: python
 -**Define the neural network architecture using TensorFlow and Keras**.
 -**Train the model on the dataset**.
 -**Save the trained model to a file for later use**.
