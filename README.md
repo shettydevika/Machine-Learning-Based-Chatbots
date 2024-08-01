@@ -62,7 +62,7 @@ This script reads the data.csv file, processes the text data (such as tokenizati
 2. **Train the Model**:
    Train the machine learning model using the preprocessed data. This step involves defining and training the model architecture.
       ```sh
-         python chatbot/train_model.py
+      python chatbot/train_model.py
 
 This script will:
 
