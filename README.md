@@ -10,7 +10,6 @@ A chatbot built using machine learning and natural language processing (NLP) tec
 - [Usage](#usage)
 - [Data](#data)
 - [Model Training](#model-training)
-- [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
@@ -63,8 +62,8 @@ This script reads the data.csv file, processes the text data (such as tokenizati
 
 2. **Train the Model**:
    Train the machine learning model using the preprocessed data. This step involves defining and training the model architecture.
-   ```sh
-   python chatbot/train_model.py
+      ```sh
+         python chatbot/train_model.py
 
 This script will:
 
@@ -97,13 +96,20 @@ The data.csv file contains the training data for the chatbot. The file should be
 - **response: The chatbot's response.**
 
 Example:
-
-      ```sh
-         query,response
-         "What is your name?", "I am a chatbot created to assist you."
-      "   Where are you located?", "We are located at 123 Main Street, Anytown, USA."
+     
+            query,response
+            "What is your name?", "I am a chatbot created to assist you."
+            "Where are you located?", "We are located at 123 Main Street, Anytown, USA."
 
 
 ## Model Training
 
 To train the chatbot's machine learning model, use the provided training scripts. Details on model architecture and training procedures can be found in the training directory.
+
+##License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+##Acknowledgements
+
+Thanks to the open-source community for providing the tools and libraries that made this project possible.
