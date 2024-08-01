@@ -68,8 +68,8 @@ This script reads the data.csv file, processes the text data (such as tokenizati
 
 This script will:
 
-      Load the preprocessed data.
-      Define the neural network architecture using TensorFlow and Keras.
-      Train the model on the dataset.
-      Save the trained model to a file for later use.
+   -**Load the preprocessed data**.
+   -**Define the neural network architecture using TensorFlow and Keras**.
+   -**Train the model on the dataset**.
+   -**Save the trained model to a file for later use**.
 
