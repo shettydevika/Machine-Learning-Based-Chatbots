@@ -10,6 +10,7 @@ A chatbot built using machine learning and natural language processing (NLP) tec
 - [Usage](#usage)
 - [Data](#data)
 - [Model Training](#model-training)
+- [System Architecture Diagram](#system-architecture-diagram)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
@@ -104,6 +105,11 @@ Example:
 ## Model Training
 
 To train the chatbot's machine learning model, use the provided training scripts. Details on model architecture and training procedures can be found in the training directory.
+
+## System Architecture Diagram
+
+A visual representation showing the major components of the chatbot system and how they interact with each other.
+![image](https://github.com/user-attachments/assets/64bfae32-180e-44dd-86cb-8e9197332403)
 
 ## License
 
